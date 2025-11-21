@@ -9,7 +9,7 @@ phases:
     commands:
       - echo Build started on `date`
       - sudo mkdir -p /var/www/html
-      - sudo cp /main/Scripts/index.html /var/www/html
+      - sudo cp /Scripts/index.html /var/www/html
   post_build:
     commands:
       - echo Configuring NGINX
